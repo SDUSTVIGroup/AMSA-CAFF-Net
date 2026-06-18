@@ -29,7 +29,6 @@ Python 3.6
 
 Pytorch 1.7.1
 
-
 # Training
 
 1. Run create_json.py to create the image path 
@@ -37,3 +36,19 @@ Pytorch 1.7.1
 2. Run make_dataset.py to generate ground truth density map
 
 3. Configure the parameters in train.py and run
+
+
+# Citation
+
+```bibtex
+@article{ZHANG2024121602,
+title = {AMSA-CAFF Net: Counting and high-quality density map estimation from X-ray images of electronic components},
+journal = {Expert Systems with Applications},
+volume = {237},
+pages = {121602},
+year = {2024},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2023.121602},
+author = {Zhiguo Zhang and Luwen Zhang and Huan Zhang and Yimo Guo and Haixia Wang and Xiao Lu}
+}
+```
